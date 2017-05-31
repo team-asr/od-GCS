@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+	<Placemark>
+		<name>KLM</name>
+		<description>900Km/hr</description>
+		<LookAt>
+			<longitude>36.885</longitude>
+			<latitude>-1.066</latitude>
+			<range></range>
+			<tilt></tilt>
+			<heading>316.2</heading>
+		</LookAt>
+		<styleUrl>root://styleMaps#default+nicon=0x307+hicon=0x317</styleUrl>
+		<Style>
+			<IconStyle>
+				<color>ff0000ff</color>
+				<Icon>
+					<href>file:///C:/stuff/aviation/Java/aircraftsmall.png</href>
+					<x>160</x>
+					<y>160</y>
+					<w>32</w>
+					<h>32</h>
+				</Icon>
+			</IconStyle>
+			<LabelStyle>
+				<color>ff0000ff</color>
+			</LabelStyle>
+		</Style>
+		<Point>
+			<coordinates>36.885,-1.066,12150</coordinates>
+		</Point>
+	</Placemark>
+</kml>
