@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="var" path="CLOVER_RUNTIME"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/gichangA/eclipse/Workspace/od-GCS/lib/SteelSeries-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/gichangA/eclipse/Workspace/od-GCS/lib/SteelSeries-3.9.26.jar"/>
+	<classpathentry kind="lib" path="C:/gichangA/eclipse/Workspace/od-GCS/lib/SteelSeries-3.9.30.jar"/>
+	<classpathentry kind="lib" path="C:/gichangA/eclipse/Workspace/od-GCS/lib/trident.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
