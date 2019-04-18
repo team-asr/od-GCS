@@ -14,6 +14,8 @@ b. The Open Drone Data Visualization Portal is going to fork this project, and c
   ii. Manipulation to filter out relevant data concerning particular sensor data, such as superimposing atmospheric data with terrain maps.
   iii. Analytics like volumetric analysis and related phototgrammetric capabilities including distance measures, object dimension calculation etc.
 
+c. To install and use this toolkit, you require Java 1.4 or higher. You also require the NASA World Wind toolkit, which can be downloaded at: https://github.com/NASAWorldWind/WorldWindJava
+  To invoke the toolkit, execute the run.bat or run.sh. There may be exceptions through that provide additional configuration information
   
 Licensing Terms:
 Work and material herein is released under a GNU General Public License. A copy of license terms can be found here: https://www.gnu.org/licenses/gpl.html
