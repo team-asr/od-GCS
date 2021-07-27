@@ -88,6 +88,7 @@ public class GcsGui extends JFrame
 	public static void main(String[] args) {
 		JFrame.setDefaultLookAndFeelDecorated(true);
 		JDialog.setDefaultLookAndFeelDecorated(true);
+		
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {

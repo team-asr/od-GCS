@@ -366,9 +366,11 @@ public class MeasureToolPanel extends JPanel {
 		presetPanel.setBorder(BorderFactory.createEmptyBorder(4, 4, 4, 4));
 		JButton bt = new JButton("Polyline");
 		bt.addActionListener(new ActionListener() {
+			
 			public void actionPerformed(ActionEvent actionEvent) {
 				shapeCombo.setSelectedIndex(1);
-				measureTool.setMeasureShape(new Polyline(PATH));
+				//measureTool.setMeasureShape(new Polyline(PATH));
+				measureTool.setMeasureShape(new Path(PATH));
 			}
 		});
 		presetPanel.add(bt);

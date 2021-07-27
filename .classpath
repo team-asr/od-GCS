@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="var" path="CLOVER_RUNTIME"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
@@ -11,5 +10,15 @@
 	<classpathentry kind="lib" path="lib/SteelSeries-3.9.26.jar"/>
 	<classpathentry kind="lib" path="lib/SteelSeries-3.9.30.jar"/>
 	<classpathentry kind="lib" path="lib/trident.jar"/>
+	<classpathentry kind="lib" path="C:/usr/dev/worldwind-v2.2.0/gdal.jar"/>
+	<classpathentry kind="lib" path="C:/usr/dev/worldwind-v2.2.0/gluegen-rt.jar"/>
+	<classpathentry kind="lib" path="C:/usr/dev/worldwind-v2.2.0/gluegen-rt-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="C:/usr/dev/worldwind-v2.2.0/jogl-all.jar"/>
+	<classpathentry kind="lib" path="C:/usr/dev/worldwind-v2.2.0/jogl-all-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="C:/usr/dev/worldwind-v2.2.0/vpf-symbols.jar"/>
+	<classpathentry kind="lib" path="C:/usr/dev/worldwind-v2.2.0/worldwind.jar"/>
+	<classpathentry kind="lib" path="C:/usr/dev/worldwind-v2.2.0/worldwindx.jar"/>
+	<classpathentry kind="var" path="CLOVER_RUNTIME"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

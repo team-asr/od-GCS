@@ -155,7 +155,7 @@ public class WorldWindPanel extends JPanel {
 		// Put the pieces together.
 		// this.add(wwjPanel, BorderLayout.CENTER);
 		if (includeLayerPanel) {
-			this.layerPanel = new LayerPanel(this.wwjPanel.getWwd(), null);
+			this.layerPanel = new LayerPanel(this.wwjPanel.getWwd());
 			this.add(this.layerPanel, BorderLayout.WEST);
 		}
 
