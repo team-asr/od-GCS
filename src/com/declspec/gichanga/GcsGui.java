@@ -134,7 +134,7 @@ public class GcsGui extends JFrame
 		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 		contentPane.add(tabbedPane, "name_1761643972904");
 
-		// JPanel missionPlanner = new JPanel();
+		//JPanel missionPlanner = new JPanel();
 		missionPlanner.addAircraftTrackingSelectionListener(this);
 		tabbedPane.addTab("UDB Mission Planner (Logo Editor)", null, missionPlanner, null);
 
