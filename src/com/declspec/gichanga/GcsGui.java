@@ -123,7 +123,7 @@ public class GcsGui extends JFrame
 	 * Create the frame.
 	 */
 	public GcsGui() {
-		setTitle("gichangA\'s Ground Control System");
+		setTitle("ASR\'s Open Drone Suite, (c) 2022");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 1472, 961);
 		contentPane = new JPanel();
@@ -136,13 +136,19 @@ public class GcsGui extends JFrame
 
 		//JPanel missionPlanner = new JPanel();
 		missionPlanner.addAircraftTrackingSelectionListener(this);
-		tabbedPane.addTab("UDB Mission Planner (Logo Editor)", null, missionPlanner, null);
+		tabbedPane.addTab("Drone Autonomous Flight Planner)", null, missionPlanner, null);
 
 		JLabel lblNewLabel_2 = new JLabel("New label");
 		lblNewLabel_2.setIcon(new ImageIcon("C:\\Users\\mwaura_m\\workspace\\GCS\\wwj.png"));
 		// missionPlanner.add(lblNewLabel_2);
 		// panel_7.add((wwjPanel);
-
+		
+		DataProcessAndUpload processUpload = new DataProcessAndUpload();
+		tabbedPane.addTab("Mission Data Upload and Processing", null, processUpload, null);
+		
+		MapViewer mapView = new MapViewer();
+		tabbedPane.addTab("Processed Data View and Analysis", null, mapView, null);
+		
 		tabbedPane.addTab("UDB Options Editor", null, udbOptionsEditor, null);
 		udbOptionsEditor.setLayout(new CardLayout(0, 0));
 		JSplitPane udbOptionsSplitView = new JSplitPane();

@@ -24,7 +24,7 @@ public class Network implements BlocksAdded {
 		networkedBlocks.add(block);
 		Iterator<Block> looper = networkedBlocks.iterator();
 		while (looper.hasNext()) {
-			looper.next()
+			looper.next();
 		}
 	}
 
